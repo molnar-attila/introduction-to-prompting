@@ -1,0 +1,137 @@
+/**
+ * Copilot Ocean theme for reveal.js
+ * Based on the Ocean theme with customizations
+ */
+
+:root {
+  --r-background-color: #0c4b78;
+  --r-main-color: #ffffff;
+  --r-heading-color: #ffffff;
+  --r-link-color: #8cd3ff;
+  --r-link-color-hover: #b3e5ff;
+  --r-selection-background-color: #2196F3;
+  --r-selection-color: #fff;
+}
+
+.reveal-viewport {
+  background: #0c4b78;
+  background: linear-gradient(135deg, #0c4b78 0%, #105a8f 50%, #1a6eaa 100%);
+}
+
+.reveal {
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: var(--r-main-color);
+}
+
+.reveal ::selection {
+  color: var(--r-selection-color);
+  background: var(--r-selection-background-color);
+  text-shadow: none;
+}
+
+.reveal ::-moz-selection {
+  color: var(--r-selection-color);
+  background: var(--r-selection-background-color);
+  text-shadow: none;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: var(--r-heading-color);
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+}
+
+.reveal h2 {
+  font-size: 1.8em;
+}
+
+.reveal h3 {
+  font-size: 1.4em;
+}
+
+.reveal a {
+  color: var(--r-link-color);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: var(--r-link-color-hover);
+  text-shadow: none;
+  border: none;
+}
+
+.reveal ul {
+  list-style-type: disc;
+}
+
+.reveal li {
+  margin: 12px 0;
+  line-height: 1.4;
+}
+
+.reveal code {
+  font-family: 'Cascadia Code', monospace;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.8em;
+  width: 90%;
+}
+
+.reveal table th {
+  font-weight: bold;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  text-align: left;
+}
+
+.reveal table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.reveal table tr:last-child td {
+  border-bottom: none;
+}
+
+.reveal .two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.reveal .two-columns > div {
+  flex: 0 0 48%;
+}
+
+.reveal .three-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.reveal .three-columns > div {
+  flex: 0 0 30%;
+}

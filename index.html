@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Introduction to GitHub Copilot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+    <link rel="stylesheet" href="css/theme/copilot-ocean.css">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-markdown="slides/01-title.md" data-separator="^\n\n" data-separator-vertical="^\n\n">
+            </section>
+
+            <!-- Slide 2: AI Assisted Tools in SDLC -->
+            <section data-markdown="slides/02-ai-tools-traction.md" data-separator="^\n\n"
+                data-separator-vertical="^\n\n"></section>
+
+            <!-- Slide 3: Limitations of Copilot -->
+            <section data-markdown="slides/03-limitations.md" data-separator="^\n\n" data-separator-vertical="^\n\n">
+            </section>
+
+            <!-- Slide 4: Ways to Interact with Copilot -->
+            <section data-markdown="slides/04-interaction-ways.md" data-separator="^\n\n"
+                data-separator-vertical="^\n\n"></section>
+
+            <!-- Slide 5: Different Modes -->
+            <section data-markdown="slides/05-copilot-modes.md" data-separator="^\n\n" data-separator-vertical="^\n\n">
+            </section>
+
+            <!-- Slide 6: Cheatsheet -->
+            <section data-markdown="slides/06-cheatsheet.md" data-separator="^\n\n" data-separator-vertical="^\n\n">
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+</body>
+
+</html>
