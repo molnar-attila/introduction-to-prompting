@@ -1,4 +1,4 @@
-# Why AI Assisted Tools Are Gaining Traction in SDLC
+## AI Assisted Tools Are Gaining Traction in SDLC
 
 ---
 
