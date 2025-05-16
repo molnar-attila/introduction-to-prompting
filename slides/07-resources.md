@@ -1,7 +1,4 @@
 ## Further Learning Resources
-
----
-
 - [Intro to GitHub Copilot Training](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) - Interactive learning module to get started with GitHub Copilot
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot) - Official documentation covering all Copilot features and capabilities
 - [GitHub Copilot Labs & Experiments](https://github.com/features/copilot) - Explore the latest features and experiments in GitHub Copilot

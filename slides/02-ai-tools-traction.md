@@ -1,6 +1,5 @@
 ## AI Assisted Tools Are Gaining Traction in SDLC
 
----
 
 - Increased developer productivity and efficiency
 - Reduction in repetitive coding tasks

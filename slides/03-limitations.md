@@ -1,5 +1,4 @@
 ## Limitations
----
 
 Code suggestions may <span style="color:red">**not always follow best practices**</span>
 
